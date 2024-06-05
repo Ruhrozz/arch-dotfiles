@@ -34,3 +34,12 @@ sudo chown -R ruhrozz:ruhrozz /opt/yay-git  # instead <ruhrozz:ruhrozz> use your
 ```bash
 yay -S yandex-browser yandex-disk
 ```
+
+# App Images
+
+```bash
+wget https://github.com/ppy/osu/releases/latest/download/osu.AppImage -P ~/Desktop/
+wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.12/Obsidian-1.5.12.AppImage -P ~/Desktop/
+```
+
+Notice that it's not a latest version of `Obsidian`, so update this link if you need.
