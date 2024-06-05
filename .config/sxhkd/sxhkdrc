@@ -149,7 +149,7 @@ ctrl + shift + super + w
 
 # pick color
 ctrl + super + p
-	xcolor-pick
+	gpick -pso --no-newline | xclip -sel c
 
 # files (nautilus)
 ctrl + super + f
